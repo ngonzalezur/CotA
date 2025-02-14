@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7174954338554842703
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3634714598763173337, guid: b7b84c21f1d97614f99585e02e381d0a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3634714598763173337, guid: b7b84c21f1d97614f99585e02e381d0a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3634714598763173337, guid: b7b84c21f1d97614f99585e02e381d0a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3634714598763173337, guid: b7b84c21f1d97614f99585e02e381d0a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3634714598763173337, guid: b7b84c21f1d97614f99585e02e381d0a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3634714598763173337, guid: b7b84c21f1d97614f99585e02e381d0a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3634714598763173337, guid: b7b84c21f1d97614f99585e02e381d0a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3634714598763173337, guid: b7b84c21f1d97614f99585e02e381d0a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3634714598763173337, guid: b7b84c21f1d97614f99585e02e381d0a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3634714598763173337, guid: b7b84c21f1d97614f99585e02e381d0a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4076073465214848380, guid: b7b84c21f1d97614f99585e02e381d0a,
+        type: 3}
+      propertyPath: m_Name
+      value: Grass tile
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4076073465214848380, guid: b7b84c21f1d97614f99585e02e381d0a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -115368757102462184}
+  m_SourcePrefab: {fileID: 100100000, guid: b7b84c21f1d97614f99585e02e381d0a, type: 3}
+--- !u!23 &2620963882226763525 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 5173798381896911178, guid: b7b84c21f1d97614f99585e02e381d0a,
+    type: 3}
+  m_PrefabInstance: {fileID: 7174954338554842703}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6343049234682205108 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4293486635539914235, guid: b7b84c21f1d97614f99585e02e381d0a,
+    type: 3}
+  m_PrefabInstance: {fileID: 7174954338554842703}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6558245790588027699 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4076073465214848380, guid: b7b84c21f1d97614f99585e02e381d0a,
+    type: 3}
+  m_PrefabInstance: {fileID: 7174954338554842703}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-115368757102462184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6558245790588027699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4be11692d40e8e043aabba0d60b99bf2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _baseColor: {fileID: 2100000, guid: d1bce8107990076469a73957b509b45c, type: 2}
+  _offsetColor: {fileID: 2100000, guid: 3cd61cb6181baf24a91fba839d08ab60, type: 2}
+  _renderer: {fileID: 2620963882226763525}
+  _highlight: {fileID: 6343049234682205108}
